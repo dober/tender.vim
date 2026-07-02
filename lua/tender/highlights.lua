@@ -64,6 +64,15 @@ function M.setup(p)
     Error = { fg = p.text, bg = p.red1 },
     Todo = { fg = p.red1, bold = true },
 
+    -- which-key.nvim
+    WhichKeyNormal = { fg = p.text, bg = p.panel },
+    WhichKeyBorder = { fg = p.bg, bg = p.bg },
+    WhichKeyTitle = { fg = p.blue1, bg = p.bg, bold = true },
+    WhichKeyGroup = { link = "Keyword" },
+    WhichKeyDesc = { link = "Identifier" },
+    WhichKeySeparator = { link = "Comment" },
+    WhichKey = { link = "Function" },
+
     -- Treesitter (from estilo treesitter.yml - only non-empty overrides)
     ["@function"] = { fg = p.green1 },
     ["@keyword"] = { fg = p.blue2 },

@@ -32,13 +32,14 @@ local base = {
   grey3       = "#444444",
 
   shadow      = "#323232",
+  panel       = "#3a3a3a",
   bg          = "#282828",
   dark        = "#202020",
   darker      = "#1d1d1d",
   darkest     = "#000000",
 }
 
-local tint_keys = { "shadow", "bg", "dark", "darker", "grey1", "grey2", "grey3" }
+local tint_keys = { "shadow", "panel", "bg", "dark", "darker", "grey1", "grey2", "grey3" }
 
 local variants = {
   blue = { hue = 198 / 360, sat = 0.12 },
